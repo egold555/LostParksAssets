@@ -137,6 +137,8 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    /*-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.4)));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.4));*/
 }
 
 .masthead .intro-body {
@@ -229,14 +231,14 @@ a:hover {
 
 .btn-default {
     color: #42DCA3;
-    border: 1px solid #42DCA3;
+    border: 3px solid #42DCA3;
     background-color: transparent;
 }
 
 .btn-default:focus,
 .btn-default:hover {
     color: black;
-    border: 1px solid #42DCA3;
+    border: 3px solid #42DCA3;
     outline: none;
     background-color: #42DCA3;
 }
